@@ -413,3 +413,16 @@ $('#transitionType li a').click(function () {
 
 
 })(jQuery);
+
+/*===================================================================================*/
+/*  OFFICIAL PARTNER
+/*===================================================================================*/
+$(document).ready(function(){
+    $('.official-partner').slick({
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        prevArrow: $('.component-prev').html(),
+        nextArrow: $('.component-next').html()
+    });
+});

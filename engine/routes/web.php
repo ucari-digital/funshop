@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('layout');
+    return view('page.index');
+});
+
+Route::get('official', function(){
+    return view('page.official-partner');
 });

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     
     <!-- Customizable CSS -->
+    <link rel="stylesheet" href="assets/css/funshop.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blue.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/rateit.css">
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
     
     <!-- Icons/Glyphs -->
     <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -42,23 +44,7 @@
     <div class="body-content outer-top-xs" id="top-banner-and-menu">
 		<div class="container">
 			<div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-3 sidebar">
-                    @include('partial.body.sidebar.top-navigation')
-
-                    <div class="home-banner outer-bottom-xs">
-						<img src="assets/images/banners/LHS-banner.jpg" alt="Image">
-                    </div>
-                    
-                    @include('partial.body.sidebar.hot-deals')
-                    @include('partial.body.sidebar.special-offers')
-                    @include('partial.body.sidebar.product-tags')
-                    @include('partial.body.sidebar.special-deals')
-                    @include('partial.body.sidebar.newsletters')
-                    @include('partial.body.sidebar.testimonial')
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
-                    @include('partial.body.content.banner')
-                </div>
+                @yield('çontent')
             </div>
         </div>
     </div>
@@ -75,5 +61,6 @@
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/slick.min.js"></script>
 </body>
 </html>

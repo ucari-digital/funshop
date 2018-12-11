@@ -1,0 +1,35 @@
+@import './official';
+
+// Official Partner
+.official-partner{
+    margin-top: 1.5rem;
+    .slick-prev.slick-arrow{
+        position: absolute;
+        height: 100%;
+        padding: 29px 0;
+        z-index: 9;
+        background-color: rgba(#fff, 0.5);
+    }
+    .slick-next.slick-arrow{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        padding: 29px 0;
+        z-index: 9;
+        background-color: rgba(#fff, 0.5);
+    }
+    .official-item{
+        width: 64px;
+        height: 82px;
+        margin: 0 auto;
+        .official-icon{
+            img{
+                width: 64px;
+            }
+        }
+        .official-name{
+            text-align: center;
+        }
+    }
+}
