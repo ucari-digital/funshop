@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('official', function(){
     return view('page.official-partner');
 });
+
+Route::get('titanium', function(){
+    return view('page.titanium');
+});

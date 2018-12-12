@@ -1,4 +1,5 @@
 <div id="product-tabs-slider" class="scroll-tabs outer-top-vs wow fadeInUp">
+    {{!empty($custom_titanium) ? $custom_titanium: ''}}
     <div class="more-info-tab clearfix ">
         <h3 class="new-product-title pull-left">New Products</h3>
         <ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
