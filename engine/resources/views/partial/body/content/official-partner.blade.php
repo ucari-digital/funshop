@@ -9,114 +9,16 @@
     </div>
 </div>
 <div class="official-partner">
+    @for($i=1;$i<10;$i++)
     <div>
         <div class="official-item">
             <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
+                <img src="assets/images/products/p1.jpg" alt="" class="img-circle">
             </div>
             <div class="official-name">
-                Mens
+                Store
             </div>
         </div>
     </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="official-item">
-            <div class="official-icon">
-                <img src="assets/images/products/p1.jpg" alt="">
-            </div>
-            <div class="official-name">
-                Mens
-            </div>
-        </div>
-    </div>
+    @endfor
 </div>
