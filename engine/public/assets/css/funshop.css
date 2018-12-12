@@ -1,7 +1,8 @@
 .official-partner-container .header {
-  height: 350px;
+  height: 400px;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  position: relative;
 }
 .official-partner-container .header .banner img {
   width: 100%;
@@ -19,6 +20,67 @@
   left: 250px;
   font-size: 24px;
   padding: 15px 0;
+}
+.official-partner-container .header .profil .hashtag {
+  left: 250px;
+  position: absolute;
+  margin-top: 50px;
+}
+.official-partner-container .header .profil .sharelink {
+  position: absolute;
+  left: 250px;
+  margin-top: 80px;
+  display: flex;
+}
+.official-partner-container .header .profil .sharelink .label {
+  color: #333;
+  font-size: 12px;
+  line-height: 2;
+  padding: 2px 10px 0 0;
+  font-weight: normal;
+}
+.official-partner-container .header .profil .followers {
+  position: absolute;
+  right: 100px;
+  margin-top: 45px;
+}
+.official-partner-container .header .profil .followers .box i {
+  font-size: 20px;
+  color: #8bc34a;
+}
+.official-partner-container .header .profil .followers .box .counting {
+  font-size: 20px;
+  color: #8bc34a;
+}
+.official-partner-container .header .profil .followers .label {
+  color: #333;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.official-partner-container .header .footer {
+  border-top: 1px solid #e3e3e3;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.official-partner-container .header .footer .tabs {
+  width: 50%;
+  display: flex;
+  padding: 0 20px;
+}
+.official-partner-container .header .footer .tabs .list {
+  padding: 10px;
+  font-weight: 600;
+}
+.official-partner-container .header .footer .tabs .list > a {
+  color: #bdbdbd;
+}
+.official-partner-container .header .footer .tabs .list.active {
+  border-bottom: 2px solid #8bc34a;
+}
+.official-partner-container .header .footer .tabs .list.active > a {
+  color: #333;
 }
 
 .official-partner {

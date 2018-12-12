@@ -11,6 +11,34 @@
                 <div class="name">
                     Lotnok Official Store
                 </div>
+                <div class="hashtag">
+                    #LotnokRakaKecil
+                </div>
+                <div class="sharelink">
+                    <span class="label">
+                        Bagikan :
+                    </span>
+                    <div class="shareblock">
+                        <div class="addthis_inline_share_toolbox_93k6"></div>
+                    </div>
+                </div>
+                <div class="followers">
+                    <div class="box">
+                        <i class="fas fa-heart"></i>
+                        <span class="counting">1,69rb</span>
+                    </div>
+                    <span class="label">followers</span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="tabs">
+                    <div class="list active">
+                        <a href="">Produk</a>
+                    </div>
+                    <div class="list">
+                        <a href="">Diskusi Produk</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,8 +1,9 @@
 .official-partner-container{
     .header{
-        height: 350px;
+        height: 400px;
         background-color: #fff;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+        position: relative;
         .banner{
             img{
                 width: 100%;
@@ -22,6 +23,69 @@
                 left: 250px;
                 font-size: 24px;
                 padding: 15px 0;
+            }
+            .hashtag{
+                left: 250px;
+                position: absolute;
+                margin-top: 50px;
+            }
+            .sharelink{
+                position: absolute;
+                left: 250px;
+                margin-top: 80px;
+                display: flex;
+                .label{
+                    color: #333;
+                    font-size: 12px;
+                    line-height: 2;
+                    padding: 2px 10px 0 0;
+                    font-weight: normal;
+                }
+            }
+            .followers{
+                position: absolute;
+                right: 100px;
+                margin-top: 45px;
+                .box{
+                    i{
+                        font-size: 20px;
+                        color: $green;
+                    }
+                    .counting{
+                        font-size: 20px;
+                        color: $green;
+                    }
+                }
+                .label{
+                    color: $font-black;
+                    display: block;
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+        }
+        .footer{
+            border-top: 1px solid $border;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            .tabs{
+                width: 50%;
+                display: flex;
+                padding: 0 20px;
+                .list{
+                    padding: 10px;
+                    font-weight: 600;
+                    > a {
+                        color: $font-grey;
+                    }
+                    &.active{
+                        border-bottom: 2px solid $green;
+                        > a {
+                            color: $font-black;
+                        }
+                    }
+                }
             }
         }
     }
