@@ -15,10 +15,19 @@ Route::get('/', function () {
     return view('page.index');
 });
 
+<<<<<<< HEAD
 Route::get('official', function(){
     return view('page.official-partner');
 });
 
 Route::get('titanium', function(){
     return view('page.titanium');
+=======
+Route::get('detail', function () {
+    return view('page.detail-product');
+});
+
+Route::get('official', function(){
+    return view('page.official-partner');
+>>>>>>> update content
 });

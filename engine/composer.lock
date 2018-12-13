@@ -639,6 +639,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.7.16",
             "source": {
                 "type": "git",
@@ -649,6 +650,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/9acea9e0a356cba7e6a13f8784d5532a82fee92a",
                 "reference": "9acea9e0a356cba7e6a13f8784d5532a82fee92a",
+=======
+            "version": "v5.7.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "a15898e2de5f5ae5548a09349c558ef0435d495a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a15898e2de5f5ae5548a09349c558ef0435d495a",
+                "reference": "a15898e2de5f5ae5548a09349c558ef0435d495a",
+>>>>>>> update content
                 "shasum": ""
             },
             "require": {
@@ -781,7 +794,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2018-12-05T14:36:24+00:00"
+=======
+            "time": "2018-12-12T14:38:09+00:00"
+>>>>>>> update content
         },
         {
             "name": "laravel/nexmo-notification-channel",
@@ -842,6 +859,7 @@
         },
         {
             "name": "laravel/slack-notification-channel",
+<<<<<<< HEAD
             "version": "v1.0.2",
             "source": {
                 "type": "git",
@@ -852,6 +870,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/0ede60acbbf5f91be2e45d0c0b4d95e2f3837252",
                 "reference": "0ede60acbbf5f91be2e45d0c0b4d95e2f3837252",
+=======
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/slack-notification-channel.git",
+                "reference": "6e164293b754a95f246faf50ab2bbea3e4923cc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/6e164293b754a95f246faf50ab2bbea3e4923cc9",
+                "reference": "6e164293b754a95f246faf50ab2bbea3e4923cc9",
+>>>>>>> update content
                 "shasum": ""
             },
             "require": {
@@ -895,7 +925,11 @@
                 "notifications",
                 "slack"
             ],
+<<<<<<< HEAD
             "time": "2018-12-04T12:58:59+00:00"
+=======
+            "time": "2018-12-12T13:12:06+00:00"
+>>>>>>> update content
         },
         {
             "name": "laravel/tinker",
@@ -4191,6 +4225,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "7.5.0",
             "source": {
                 "type": "git",
@@ -4201,6 +4236,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
                 "reference": "520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
+=======
+            "version": "7.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "c23d78776ad415d5506e0679723cb461d71f488f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c23d78776ad415d5506e0679723cb461d71f488f",
+                "reference": "c23d78776ad415d5506e0679723cb461d71f488f",
+>>>>>>> update content
                 "shasum": ""
             },
             "require": {
@@ -4271,7 +4318,11 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2018-12-07T07:08:12+00:00"
+=======
+            "time": "2018-12-12T07:20:32+00:00"
+>>>>>>> update content
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

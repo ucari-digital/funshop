@@ -14,7 +14,10 @@
   top: 200px;
   left: 100px;
   border: 1px solid #e0e0e0;
+<<<<<<< HEAD
   border-radius: 3px;
+=======
+>>>>>>> update content
 }
 .official-partner-container .header .profil .name {
   position: absolute;
@@ -84,6 +87,7 @@
   color: #333;
 }
 
+<<<<<<< HEAD
 .titanium-container .header {
   height: 400px;
   background-color: #fff;
@@ -253,6 +257,8 @@
   color: #333;
 }
 
+=======
+>>>>>>> update content
 .official-partner {
   margin-top: 1.5rem;
 }

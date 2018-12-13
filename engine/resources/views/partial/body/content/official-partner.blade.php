@@ -12,12 +12,23 @@
     @for($i=1;$i<10;$i++)
     <div>
         <div class="official-item">
+<<<<<<< HEAD
             <div class="official-icon">
                 <img src="assets/images/products/p1.jpg" alt="" class="img-circle">
             </div>
             <div class="official-name">
                 Store
             </div>
+=======
+            <a href="{{url('official')}}">
+                <div class="official-icon">
+                    <img src="assets/images/products/p1.jpg" alt="" class="img-circle">
+                </div>
+                <div class="official-name">
+                    Store
+                </div>
+            </a>
+>>>>>>> update content
         </div>
     </div>
     @endfor
