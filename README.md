@@ -10,7 +10,7 @@
 2. rename file .env.example jadi .env
 3. buka terminal, lalu ketik _php artisan key:generate_
 
-**LINK UTgit AMA: localhost/funshop/public**
+**LINK UTAMA: localhost/funshop/public**
 
 **LINK DETAIL: localhost/funshop/public/detail**
 
