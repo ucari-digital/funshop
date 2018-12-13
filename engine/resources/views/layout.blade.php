@@ -10,11 +10,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="MediaCenter, Template, eCommerce">
     <meta name="robots" content="all">
-<<<<<<< HEAD
-    <title>Flipmart premium HTML5 & CSS3 Template</title>
-=======
     <title>Funshop</title>
->>>>>>> update content
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -46,24 +42,17 @@
         @include('partial.header.main-header')
         @include('partial.header.navbar')
     </header>
-<<<<<<< HEAD
-    <div class="body-content outer-top-xs" id="top-banner-and-menu">
-=======
     <div class="body-content outer-top-xs outer-bottom-xs" id="top-banner-and-menu">
->>>>>>> update content
 		<div class="container">
 			<div class="row">
                 @yield('çontent')
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-=======
     <footer id="footer" class="footer color-bg">
         @include('partial.footer.footer')
         @include('partial.footer.bottom-footer')
     </footer>
->>>>>>> update content
 
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

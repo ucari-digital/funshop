@@ -8,14 +8,7 @@
     </div>
     
     @include('partial.body.sidebar.hot-deals')
-<<<<<<< HEAD
-    @include('partial.body.sidebar.special-offers')
-    @include('partial.body.sidebar.product-tags')
     @include('partial.body.sidebar.special-deals')
-    @include('partial.body.sidebar.newsletters')
-=======
-    @include('partial.body.sidebar.special-deals')
->>>>>>> update content
     @include('partial.body.sidebar.testimonial')
 </div>
 <div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">

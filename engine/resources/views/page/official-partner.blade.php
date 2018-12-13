@@ -9,17 +9,10 @@
             <div class="profil">
                 <img src="https://via.placeholder.com/420x420/ffeb3b" alt="">
                 <div class="name">
-<<<<<<< HEAD
-                    Lotnok Official Store
-                </div>
-                <div class="hashtag">
-                    #LotnokRakaKecil
-=======
                     Official Store
                 </div>
                 <div class="hashtag">
                     #MulaiAjaDulu
->>>>>>> update content
                 </div>
                 <div class="sharelink">
                     <span class="label">
@@ -49,15 +42,9 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="content">
-            @include('partial.body.content.product')
-=======
     <div class="col-md-12 col-sm-12 col-xs-12 outer-top-xs">
         <div class="content">
             @include('partial.body.content._detail-upsell-product')
->>>>>>> update content
         </div>
     </div>
 </div>

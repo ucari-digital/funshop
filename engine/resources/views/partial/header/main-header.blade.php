@@ -4,13 +4,8 @@
             <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
                 <!-- ============================================================= LOGO ============================================================= -->
                 <div class="logo">
-<<<<<<< HEAD
-                    <a href="home.html">
-                        <img src="assets/images/logo.png" alt="">
-=======
                     <a href="{{url('/')}}">
                         <img src="assets/images/logo.png" alt="" style="width:400px;height:70px;margin-top:-20px;">
->>>>>>> update content
                     </a>
                 </div><!-- /.logo -->
                 <!-- ============================================================= LOGO : END ============================================================= -->
